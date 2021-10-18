@@ -1,0 +1,65 @@
+.banner h2{
+    font-family: 'Courgette', cursive;
+    color:yellow;
+    font-size: 3rem;
+}
+.banner h1{
+    font-weight: bold;
+    font-size: 5rem;
+}
+.banner p{
+    font-size: 2rem;
+}
+.banner img{
+    filter:brightness(60%);
+}
+.banner h1, p {
+    font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .banner h2{
+        font-size: 15px;
+    }
+    .banner h1{
+        font-size: 18px;
+    }
+    .banner p{
+        font-size: 10px;
+    }
+}
+
+ @media only screen and (min-width: 481px) and (max-width: 768px){
+    .banner h2{
+        font-size: 35px;
+    }
+    .banner h1{
+        font-size: 40px;
+    }
+    .banner p{
+        font-size: 20px;
+    }
+ }
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .banner h2{
+        font-size: 50px;
+    }
+    .banner h1{
+        font-size: 60px;
+    }
+    .banner p{
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width: 1025px){
+    .banner h2{
+        font-size: 60px;
+    }
+    .banner h1{
+        font-size: 70px;
+    }
+    .banner p{
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,27 @@
+.logo{
+    font-family: 'Courgette', cursive;
+}
+.header small{
+    color: #2ACB35;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #2ACB35 0%, #f4b53f  51%, #2ACB35  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 7px 10px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;     
+   font-weight: bold;       
+   box-shadow: 0 0 20px #eee;
+   border-radius: 5px;
+   border: none;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   text-decoration: none;
+ }
