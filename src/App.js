@@ -8,7 +8,6 @@ import Home from './Pages/Home/Home';
 import Header from './Pages/Header/Header';
 import About from './Pages/About/About';
 import Services from './Pages/Services/Services';
-import Blog from './Pages/Blog/Blog';
 import Contact from './Pages/Contact/Contact';
 import Footer from './Pages/Footer/Footer';
 import NotFound from './Pages/NotFound/NotFound';
@@ -16,6 +15,8 @@ import Session from './Pages/Appoinment/Session/Session';
 import AuthProvider from './Context/AuthProvider';
 import PrivateRoute from './Redirect/PrivateRoute';
 import Register from './Pages/Register/Register';
+import Blogs from './Pages/Blogs/Blogs';
+import BlogDetail from './Pages/Blogs/Blog/BlogDetail/BlogDetail';
 
 function App() {
   return (
@@ -38,10 +39,13 @@ function App() {
             </Route>
             <PrivateRoute path="/service/:serviceId">
               <Session></Session>
-            </PrivateRoute>
+            </PrivateRoute>s
             <Route path="/blog">
-              <Blog></Blog>
+              <Blogs></Blogs>
             </Route>
+            <PrivateRoute path="/blog/:blogId">
+              <BlogDetail></BlogDetail>
+            </PrivateRoute>
             <Route path="/contact">
               <Contact></Contact>
             </Route>

@@ -9,7 +9,7 @@ const Services = () => {
         fetch("./services.json")
             .then(res => res.json())
             .then(data => setServices(data))
-    }, [])
+    }, []);
     return (
         <div style={{ backgroundColor: "#F7F7F7" }} className="text-center py-5">
             <h2 style={{ color: "#2ACB35" }} className="logo">What We Do?</h2>

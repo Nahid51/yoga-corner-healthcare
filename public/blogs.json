@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "img": "https://i.ibb.co/6vfZgHM/latest-blog-1.jpg",
+        "category": "Fitness",
+        "about": "Physical activity or exercise can improve your health and reduce the risk of developing several diseases like type 2 diabetes, cancer and cardiovascular disease. Physical activity and exercise can have immediate and long-term health benefits. Most importantly, regular activity can improve your quality of life."
+    },
+    {
+        "id": "2",
+        "img": "https://i.ibb.co/nr2KbcF/latest-blog-2.jpg",
+        "category": "Recipies",
+        "about": "Preparing healthy meals at home can support your immune system and reduce the risk of illnesses such as heart disease, cancer, high blood pressure, and diabetes. It can give you more energy, improve how you sleep at night, and help you better manage health problems."
+    },
+    {
+        "id": "3",
+        "img": "https://i.ibb.co/6wfNt30/latest-blog-3.jpg",
+        "category": "Crossfit",
+        "about": "May improve physical strength. The high-intensity, multi-joint movements in CrossFit may help you gain muscle strength and stamina. May help you improve aerobic fitness. Improve agility, balance, and flexibility. Burn calories and manage weight."
+    }
+]
