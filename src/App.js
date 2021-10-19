@@ -13,9 +13,9 @@ import Contact from './Pages/Contact/Contact';
 import Footer from './Pages/Footer/Footer';
 import NotFound from './Pages/NotFound/NotFound';
 import Session from './Pages/Appoinment/Session/Session';
-import Login from './Pages/Login/Login';
 import AuthProvider from './Context/AuthProvider';
 import PrivateRoute from './Redirect/PrivateRoute';
+import Register from './Pages/Register/Register';
 
 function App() {
   return (
@@ -46,7 +46,7 @@ function App() {
               <Contact></Contact>
             </Route>
             <Route path="/login">
-              <Login></Login>
+              <Register></Register>
             </Route>
             <Route path="*">
               <NotFound></NotFound>

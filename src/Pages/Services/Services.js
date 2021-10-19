@@ -27,8 +27,3 @@ const Services = () => {
 };
 
 export default Services;
-// {
-//     services.map(service => <Service
-//         service={service}
-//     ></Service>)
-// }

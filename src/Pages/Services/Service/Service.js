@@ -7,7 +7,7 @@ const Service = ({ service }) => {
     return (
         <div>
             <Col className="container">
-                <Card style={{ height: "40rem" }}>
+                <Card style={{ height: "45rem" }}>
                     <Card.Img style={{ height: "20rem" }} variant="top" src={img} />
                     <Card.Body>
                         <Card.Title style={{ fontFamily: "'Poppins', sans-serif" }}>Category: {category}</Card.Title>
