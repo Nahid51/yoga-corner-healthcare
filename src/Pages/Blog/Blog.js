@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, Card, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import 'animate.css';
 
 const Blog = ({ blog }) => {
     const { id, img, category, about } = blog;
@@ -8,7 +9,7 @@ const Blog = ({ blog }) => {
         <div>
             <Col className="container mx-auto">
                 <Card style={{ height: "45rem" }}>
-                    <Card.Img style={{ height: "20rem" }} variant="top" src={img} />
+                    <Card.Img className="animate__animated animate__backInRight" style={{ height: "20rem" }} variant="top" src={img} />
                     <Card.Body>
                         <Card.Title style={{ fontFamily: "'Poppins', sans-serif" }}>Category: {category}</Card.Title>
                         <Card.Text style={{ fontFamily: "'Poppins', sans-serif", fontWeight: "300" }}>

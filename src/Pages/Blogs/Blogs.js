@@ -11,7 +11,7 @@ const Blogs = () => {
             .then(data => setBlogs(data))
     }, []);
     return (
-        <div style={{ backgroundColor: "#F7F7F7" }} className="text-center py-5">
+        <div style={{ backgroundColor: "#F7F7F7", overflow: "hidden" }} className="text-center py-5">
             <h2 style={{ color: "#2ACB35" }} className="logo">From Blog</h2>
             <h1 style={{ fontFamily: "'Poppins', sans-serif" }} className="fw-bold mb-3">NEWS AND ARTICLES</h1>
             <Row xs={1} md={2} lg={3} className="g-4">

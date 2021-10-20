@@ -11,7 +11,7 @@ const Services = () => {
             .then(data => setServices(data))
     }, []);
     return (
-        <div style={{ backgroundColor: "#F7F7F7" }} className="text-center py-5">
+        <div style={{ backgroundColor: "#F7F7F7", overflow: "hidden" }} className="text-center py-5">
             <h2 style={{ color: "#2ACB35" }} className="logo">What We Do?</h2>
             <h1 style={{ fontFamily: "'Poppins', sans-serif" }} className="fw-bold mb-3">Our Services</h1>
             <Row xs={1} md={2} lg={4} className="g-4">

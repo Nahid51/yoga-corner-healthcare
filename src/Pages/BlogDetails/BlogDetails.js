@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Button, Card } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
+import 'animate.css';
 
 const BlogDetails = () => {
     const { blogId } = useParams();
@@ -24,11 +25,11 @@ const BlogDetails = () => {
     return (
         <div className='my-5'>
             <Card className='mx-auto login-card'>
-                <Card.Img variant="top" src={singleBlog?.img} />
+                <Card.Img className="animate__animated animate__backInRight" variant="top" src={singleBlog?.img} />
                 <Card.Body>
                     <Card.Title>Category: {singleBlog?.category}</Card.Title>
                     <Card.Text style={{ textAlign: 'justify' }}><b>About:</b> {singleBlog?.about}</Card.Text>
-                    <Button as={Link} to='/blogs' className="btn-grad mx-5">Back</Button>
+                    <Button as={Link} to='/blogs' className="btn-grad mx-5 animate__animated animate__backInUp">Back</Button>
                 </Card.Body>
             </Card>
         </div>

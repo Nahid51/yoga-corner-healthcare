@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Button, Card } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
+import 'animate.css';
 
 const Session = () => {
     const { serviceId } = useParams();
@@ -24,11 +25,11 @@ const Session = () => {
         <div>
             <div className='my-5'>
                 <Card className='mx-auto login-card'>
-                    <Card.Img variant="top" src={singleService?.img} />
+                    <Card.Img className="animate__animated animate__backInRight" variant="top" src={singleService?.img} />
                     <Card.Body>
                         <Card.Title>Category: {singleService?.category}</Card.Title>
                         <Card.Text style={{ textAlign: 'justify' }}><b>About:</b> {singleService?.about}</Card.Text>
-                        <Button as={Link} to='/services' className="btn-grad mx-5">Back</Button>
+                        <Button as={Link} to='/services' className="btn-grad mx-5 animate__animated animate__backInUp">Back</Button>
                     </Card.Body>
                 </Card>
             </div>

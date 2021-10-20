@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card, Form } from 'react-bootstrap';
+import { Card, Container, Form, ListGroup } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -21,20 +21,24 @@ const Footer = () => {
                         </Card.Text>
                     </div>
                     <div className="col-12 col-md-6">
-                        <Form className="logo text-start mb-2 fs-3">Give Us Your FeedBack</Form>
+                        <Form className="logo text-start mb-2 fs-3">Working Hour</Form>
                         <Form>
-                            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                                <Form.Label>Email address</Form.Label>
-                                <Form.Control type="email" placeholder="name@example.com" />
-                            </Form.Group>
-                            <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                                <Form.Label>Your Comment</Form.Label>
-                                <Form.Control as="textarea" rows={3} />
-                            </Form.Group>
-                            <Link to='/footer'><Button variant="warning" type="submit">
-                                Submit
-                            </Button></Link>
+                            <Card className="login-card">
+                                <ListGroup variant="flush">
+                                    <ListGroup.Item>Monday to Friday: 9am - 5pm</ListGroup.Item>
+                                    <ListGroup.Item>Saturday: 9am - 1pm</ListGroup.Item>
+                                    <ListGroup.Item>Friday: Closed</ListGroup.Item>
+                                </ListGroup>
+                            </Card>
                         </Form>
+                        <Container className="mt-5">
+                            <Link to="logo" className="far fa-envelope fa-lg"></Link>
+                            <Link to="logo" className="fab fa-facebook-square fa-lg mx-5"></Link>
+                            <Link to="logo" className="fab fa-whatsapp fa-lg"></Link>
+                            <Link to="logo" className="fab fa-twitter fa-lg mx-5"></Link>
+                            <Link to="logo" className="fab fa-youtube fa-lg"></Link>
+                        </Container>
+
                     </div>
                 </Card.Body>
                 <small className="text-center">&copy;2021 by Yoya Corner. Proudly created by myself.</small>

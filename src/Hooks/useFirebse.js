@@ -106,13 +106,10 @@ const useFirebase = () => {
             });
     }
 
-
-
     const toogleLogin = e => {
         setIsLogin(e.target.checked);
         console.log(e.target.checked);
     }
-
 
     useEffect(() => {
         const observedUserState = onAuthStateChanged(auth, (user) => {

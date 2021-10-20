@@ -11,7 +11,7 @@ const Header = () => {
         <div className="header">
             <Navbar bg="light" expand="lg" sticky="top">
                 <Container>
-                    <Navbar.Brand href="/" className="logo lh-1 fw-bold animate__animated animate__flip">Yoga Corner <br /><small className="fs-6">For Healthy Life</small></Navbar.Brand>
+                    <Navbar.Brand as={Link} to="/" className="logo lh-1 fw-bold animate__animated animate__flip">Yoga Corner <br /><small className="fs-6">For Healthy Life</small></Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav

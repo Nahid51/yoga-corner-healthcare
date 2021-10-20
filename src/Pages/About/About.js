@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div className="my-5">
             <Row className="g-2">
-                <Col className="col-lg-8 col-md-8 col-12">
+                <Col className="login-card col-lg-8 col-md-8 col-12">
                     <Card className="border-0">
                         <Card.Body className="text-lg-end text-md-center text-start">
                             <Card.Title style={{ color: "#2ACB35" }} className="logo fs-2">Some Story About Us</Card.Title>
