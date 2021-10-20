@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Row } from 'react-bootstrap';
-import Blog from './Blog/Blog';
-
+import Blog from '../Blog/Blog';
 
 const Blogs = () => {
     const [blogs, setBlogs] = useState([]);
@@ -11,7 +10,6 @@ const Blogs = () => {
             .then(res => res.json())
             .then(data => setBlogs(data))
     }, []);
-
     return (
         <div style={{ backgroundColor: "#F7F7F7" }} className="text-center py-5">
             <h2 style={{ color: "#2ACB35" }} className="logo">From Blog</h2>
@@ -22,7 +20,6 @@ const Blogs = () => {
                         key={blog.id}
                         blog={blog}
                     ></Blog>
-
                 ))}
             </Row>
         </div>

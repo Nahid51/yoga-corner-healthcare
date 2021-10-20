@@ -54,7 +54,7 @@ const Register = () => {
                         <Form.Group as={Row} className="mb-3">
                             <Col sm={{ span: 10, offset: 2 }}>
                                 <Button className="btn-grad" type="submit">{isLogin ? "Login" : "Register"}</Button>
-                                <Button onClick={resetPassword} className="btn-grad">Reset Button</Button>
+                                <Button onClick={resetPassword} className="btn-grad">Password Reset Button</Button>
                             </Col>
                         </Form.Group>
 

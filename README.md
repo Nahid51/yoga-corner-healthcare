@@ -21,9 +21,9 @@ You can improve your health by keeping a balanced routine. For this, we can guid
 
 ### `Who can join here`
 
-Anyone can join here. We are by the side of those who can give some time to improve themselves.
+Anyone can join here. We are by the side of those people who can give some time to improve themselves.
 
 
 ### `About our session`
 
-We mediate you eveey time when you need. We have two session. Two session are in the morning and one session is in the afternoon.
+We mediate you every time when you need. We have two session. Two session are in the morning and one session is in the afternoon.

@@ -19,7 +19,7 @@ const Session = () => {
     useEffect(() => {
         const foundCourse = serviceDetails.find(service => service.id === serviceId);
         setSingleService(foundCourse);
-    }, [serviceDetails, serviceId])
+    }, [serviceDetails, serviceId]);
     return (
         <div>
             <div className='my-5'>

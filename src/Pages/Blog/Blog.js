@@ -6,7 +6,7 @@ const Blog = ({ blog }) => {
     const { id, img, category, about } = blog;
     return (
         <div>
-            <Col className="container">
+            <Col className="container mx-auto">
                 <Card style={{ height: "45rem" }}>
                     <Card.Img style={{ height: "20rem" }} variant="top" src={img} />
                     <Card.Body>
@@ -14,7 +14,7 @@ const Blog = ({ blog }) => {
                         <Card.Text style={{ fontFamily: "'Poppins', sans-serif", fontWeight: "300" }}>
                             <b>About:</b> {about}
                         </Card.Text>
-                        <Button as={Link} to={`/blog/${id}`} className="btn-grad mb-2">Blog Details</Button>
+                        <Button as={Link} to={`/blog/${id}`} className="btn-grad mb-2">Session Details</Button>
                     </Card.Body>
                 </Card>
             </Col>

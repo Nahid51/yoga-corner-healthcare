@@ -16,7 +16,7 @@ import AuthProvider from './Context/AuthProvider';
 import PrivateRoute from './Redirect/PrivateRoute';
 import Register from './Pages/Register/Register';
 import Blogs from './Pages/Blogs/Blogs';
-import BlogDetail from './Pages/Blogs/Blog/BlogDetail/BlogDetail';
+import BlogDetails from './Pages/BlogDetails/BlogDetails';
 
 function App() {
   return (
@@ -39,12 +39,12 @@ function App() {
             </Route>
             <PrivateRoute path="/service/:serviceId">
               <Session></Session>
-            </PrivateRoute>s
-            <Route path="/blog">
+            </PrivateRoute>
+            <Route path="/blogs">
               <Blogs></Blogs>
             </Route>
             <PrivateRoute path="/blog/:blogId">
-              <BlogDetail></BlogDetail>
+              <BlogDetails></BlogDetails>
             </PrivateRoute>
             <Route path="/contact">
               <Contact></Contact>
