@@ -8,7 +8,7 @@ const Nature = () => {
     return (
         <div>
             <Card className="bg-dark text-white mb-5 border-0">
-                <Card.Img className="bg-img" src="https://i.ibb.co/sVwRy2z/young-woman-runner-tying-her-shoes-preparing-for-a-jog-outside-at-morning.jpg" alt="Card image" />
+                <Card.Img className="bg-img" src="https://i.ibb.co/Hrsw05b/slogan-bg.jpg" alt="Card image" />
                 <Card.ImgOverlay className="text-center">
                     <Card.Title style={{ color: "#2ACB35" }} className="logo fs-2">A Natural way of improving your health.</Card.Title>
                     <Card.Text style={{ fontFamily: "'Poppins', sans-serif", fontWeight: "300" }} className="mb-5">

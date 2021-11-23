@@ -41,7 +41,7 @@ const About = () => {
                 </Col>
                 <Col className="col-lg-4 col-md-4 col-12">
                     <Card className="d-flex justify-content-center align-items-center border-0">
-                        <Card.Img className="w-75 animate__animated animate__backInRight" variant="left" src="https://i.ibb.co/Hr4PGm0/callto-action.png" />
+                        <Card.Img className="w-75 animate__animated animate__backInRight" variant="left" src="https://i.ibb.co/grJtvQQ/about.png" />
                     </Card>
                 </Col>
             </Row>
