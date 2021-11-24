@@ -1,3 +1,43 @@
 .bg-img{
     filter: brightness(60%);
 }
+.font1{
+    font-size: 30px;
+}
+.font2{
+    font-size: 20px;
+    padding: 0 10px;
+}
+@media only screen and (max-width: 480px) {
+    .bg-img{
+        height: 200px;
+    }
+    .font1{
+        font-size: 15px;
+    }
+    .font2{
+        font-size: 10px;
+    }
+  }
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .bg-img{
+        height: 300px;
+    }
+    .font1{
+        font-size: 30px;
+    }
+    .font2{
+        font-size: 20px;
+    }
+  }
+@media only screen and (min-width: 769px) and (max-width: 1080px) {
+    .bg-img{
+        height: 350px;
+    }
+    .font1{
+        font-size: 40px;
+    }
+    .font2{
+        font-size: 25px;
+    }
+  }
